@@ -7,3 +7,20 @@ body {
   border: 1px solid gray; /* uma borda para visualizar o container*/
   margin: 0 auto; /* a forma de centralizar elementos Block */
 }
+
+.menu {
+  display: flex; /* sapinho */
+  justify-content: space-between;
+}
+.menu li {
+  border: 1px solid #79c48c;
+}
+
+.logotipo {
+  text-align: center;
+}
+
+.logotipo img {
+  max-width: 200px; /* largura máxima */
+  height: auto; /* altura automática garantindo a proporção */
+}
