@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  border: 1px solid gray;
-  margin: 0 auto;
+  max-width: 1000px; /* Limitar a largura do container */
+  border: 1px solid gray; /* uma borda para visualizar o container*/
+  margin: 0 auto; /* a forma de centralizar elementos Block */
 }
